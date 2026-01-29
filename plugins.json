@@ -28,11 +28,11 @@
     ]
   },
   {
-    "id": "test3",
+    "id": "test4",
     "latest": "1.0.0@1.0.0",
     "author": "xnll038",
     "license": "Custom",
-    "title": "Test 3",
+    "title": "Test 4",
     "description": "Some description",
     "repo": [
 		["1.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main"]
