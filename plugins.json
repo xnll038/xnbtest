@@ -24,7 +24,7 @@
 		["1.0.0@1.0.0#uptomajor", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin2/refs/heads/main"]
 	],
 	"dependencies": [
-        ["test1", "1.0.0@1.0.1"]
+        ["test3", "1.0.0@1.0.0"]
     ]
   },
   {
@@ -38,7 +38,6 @@
 		["1.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main"]
 	],
 	"dependencies": [
-        ["test1", "1.0.0@1.0.1"],
         ["test2", "1.0.0@1.0.0#uptomajor"]
     ]
   }
