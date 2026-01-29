@@ -1,0 +1,45 @@
+[
+  {
+    "id": "test1",
+    "latest": "1.2.3@1.0.1",
+    "author": "xnll038",
+    "license": "Custom",
+    "title": "Test 1",
+    "description": "Some description",
+    "repo": [
+		["1.2.3@1.0.1", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin1/refs/heads/main"]
+	],
+	"dependencies": [
+        ["test2", "1.0.0@1.0.0"]
+    ]
+  },
+  {
+    "id": "test2",
+    "latest": "1.0.0@1.0.0#uptomajor",
+    "author": "xnll038",
+    "license": "Custom",
+    "title": "Test 2",
+    "description": "Some description",
+    "repo": [
+		["1.0.0@1.0.0#uptomajor", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin2/refs/heads/main"]
+	],
+	"dependencies": [
+        ["test1", "1.0.0@1.0.1"]
+    ]
+  },
+  {
+    "id": "test3",
+    "latest": "1.0.0@1.0.0",
+    "author": "xnll038",
+    "license": "Custom",
+    "title": "Test 3",
+    "description": "Some description",
+    "repo": [
+		["1.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main"]
+	],
+	"dependencies": [
+        ["test1", "1.0.0@1.0.1"],
+        ["test2", "1.0.0@1.0.0#uptomajor"]
+    ]
+  }
+]
