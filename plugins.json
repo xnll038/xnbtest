@@ -29,7 +29,7 @@
   },
   {
     "id": "test4",
-    "latest": "1.0.0@1.0.0",
+    "latest": "1.1.0@1.0.0#uptominor",
     "author": "xnll038",
     "license": "Custom",
     "title": "Test 4",
