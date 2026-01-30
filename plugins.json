@@ -35,7 +35,11 @@
     "title": "Test 4",
     "description": "Some description",
     "repo": [
-		["1.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main"]
+		["1.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main"],
+		["1.0.1@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main"],
+		["1.0.2@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main"],
+		["1.0.3@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main"],
+		["1.1.0@1.0.0#uptominor", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main"],
 	],
 	"dependencies": [
         ["test2", "1.0.0@1.0.0#uptomajor"]
