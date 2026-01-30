@@ -15,13 +15,15 @@
   },
   {
     "id": "test2",
-    "latest": "1.0.0@1.0.0#uptomajor",
+    "latest": "1.0.3@1.0.0#uptomajor",
     "author": "xnll038",
     "license": "Custom",
     "title": "Test 2",
     "description": "Some description",
     "repo": [
-		["1.0.0@1.0.0#uptomajor", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin2/refs/heads/main"]
+		["1.0.0@1.0.0#uptomajor", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin2/refs/heads/main"],
+		["1.0.2@1.0.0#uptomajor", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin2/refs/heads/main"],
+		["1.0.3@1.0.0#uptomajor", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin2/refs/heads/main"]
 	],
 	"dependencies": [
         ["test3", "1.0.0@1.0.0"]
@@ -29,7 +31,7 @@
   },
   {
     "id": "test4",
-    "latest": "1.1.0@1.0.0#uptominor",
+    "latest": "1.1.0@1.0.3",
     "author": "xnll038",
     "license": "Custom",
     "title": "Test 4",
@@ -40,6 +42,7 @@
 		["1.0.2@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main"],
 		["1.0.3@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main"],
 		["1.1.0@1.0.0#uptominor", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main"],
+		["1.1.0@1.0.3", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin3/refs/heads/main"]
 	],
 	"dependencies": [
         ["test2", "1.0.0@1.0.0#uptomajor"]
