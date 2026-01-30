@@ -13,10 +13,10 @@
       ["en", "P2P voice calls with echo cancellation"]
     ],
     "repo": [
-      ["1.5.2@1.2.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin1/refs/heads/main/plugin.json"],
-      ["1.5.0@1.2.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin1/refs/heads/main/plugin.json"],
-      ["1.4.0@1.1.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin1/refs/heads/main/plugin.json"],
-      ["1.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin1/refs/heads/main/plugin.json"]
+      ["1.5.2@1.2.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin1/refs/heads/main"],
+      ["1.5.0@1.2.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin1/refs/heads/main"],
+      ["1.4.0@1.1.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin1/refs/heads/main"],
+      ["1.0.0@1.0.0", "https://raw.githubusercontent.com/xnll038/xnmwebtestplugin1/refs/heads/main"]
     ],
     "dependencies": [
       ["1.5.2@1.2.0", [
